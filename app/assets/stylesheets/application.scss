@@ -15,3 +15,19 @@
  */
 
 @import "/home/jeffrey/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/bulma-rails-0.9.0/app/assets/stylesheets/bulma.sass";
+
+.navbar-brand .title {
+  color: white;
+}
+
+// round images
+.image {
+  border-radius: 50%;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}
